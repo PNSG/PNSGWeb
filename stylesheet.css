@@ -467,6 +467,21 @@ button:hover {
     line-height: 8em;
 }
 
+.values-sections {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row;
+    justify-content: space-around;
+    height: 10em;
+    line-height: 8em;
+}
+
 .value {
     background: #00a794;
     margin: 1em;
@@ -478,6 +493,30 @@ button:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.values-sections .value {
+    background: #00a794;
+    margin: 1em;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    flex: 1 0 0px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.values-sections .value:hover {
+    background: #00a794 !important;
+}
+
+.values-sections p {
+    line-height: 0;
 }
 
 .value img {
