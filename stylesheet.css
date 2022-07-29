@@ -420,7 +420,7 @@ button:hover {
 
 .bottomnav .last .section {
     margin-right: 1em;
-    height: 1.7rem;
+    height: 1.5rem;
 }
 
 .bottomnav .last .CEOP {
@@ -468,7 +468,7 @@ button:hover {
 }
 
 .value {
-    background: #7413DC;
+    background: #00a794;
     margin: 1em;
     color: white;
     font-weight: 900;
@@ -476,6 +476,7 @@ button:hover {
     flex: 1 0 0px;
     height: auto;
     display: flex;
+    flex-direction: row;
     justify-content: center;
 }
 
