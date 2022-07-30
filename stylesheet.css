@@ -501,7 +501,6 @@ button:hover {
 }
 
 .values-sections .value {
-    background: #00a794;
     margin: 1em;
     color: white;
     font-weight: 900;
@@ -516,10 +515,6 @@ button:hover {
     transition: .5s;
 }
 
-.values-sections .value:hover {
-    background: #00a794 !important;
-}
-
 .values-sections p {
     line-height: 0;
 }
@@ -529,6 +524,30 @@ button:hover {
     height: auto;
     display: block;
     margin: auto;
+}
+
+.red {
+    background-color: #e22e12;
+}
+
+.blue {
+    background-color: #006ddf;
+}
+
+.green {
+    background-color: #23a950;
+}
+
+.teal {
+    background-color: #053b45;
+}
+
+.navy {
+    background-color: #003982;
+}
+
+.values-sections .value:hover {
+    background: #00a794;
 }
 
 .grid {
@@ -546,6 +565,10 @@ button:hover {
 .grid-item {
     width: 50%;
     margin-right: 2em;
+}
+
+iframe {
+    border: 0;
 }
 
 @media (max-width: 1270px) {
