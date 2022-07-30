@@ -708,12 +708,12 @@ iframe {
 
 @media (max-width: 300px) {
     html {
-        font-size: 40%;
+        font-size: calc(12px+40%);
     }
 }
 
 @media (max-width: 270px) {
     html {
-        font-size: 30%;
+        font-size: calc(12px+30%);
     }
 }
