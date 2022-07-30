@@ -464,7 +464,8 @@ button:hover {
     -webkit-flex-flow: row;
     justify-content: space-around;
     height: 10em;
-    line-height: 8em;
+    flex-wrap: wrap;
+    flex-shrink: 1;
 }
 
 .values-sections {
@@ -480,6 +481,8 @@ button:hover {
     justify-content: space-around;
     height: 10em;
     line-height: 8em;
+    flex-wrap: wrap;
+    flex-shrink: 1;
 }
 
 .value {
@@ -489,10 +492,12 @@ button:hover {
     font-weight: 900;
     text-align: center;
     flex: 1 0 0px;
-    height: auto;
+    height: 8em;
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .values-sections .value {
@@ -502,7 +507,7 @@ button:hover {
     font-weight: 900;
     text-align: center;
     flex: 1 0 0px;
-    height: auto;
+    height: 8em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -542,13 +547,37 @@ button:hover {
     }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1300px) {
     html {
         font-size: 80%;
     }
-}
 
-@media (max-width: 950px) {
+    .values {
+        -webkit-flex-flow: column;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .value {
+        line-height: 8em;
+    }
+
+    .values img {
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+
+    .values-sections {
+        -webkit-flex-flow: column;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .values-sections .value {
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
+
     .topnav {
         display: flex;
         justify-content: space-between;
