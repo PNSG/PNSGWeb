@@ -91,7 +91,7 @@ package = "netlify-plugin-checklinks"
 package = "netlify-plugin-chromium"
 
   [plugins.inputs]
-    packageManager = npm
+    packageManager = "npm"
     setChromePathInEnv = true
     failBuildOnError = false
 
