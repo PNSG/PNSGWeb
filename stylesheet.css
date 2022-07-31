@@ -464,7 +464,6 @@ button:hover {
     -webkit-flex-flow: row;
     justify-content: space-around;
     height: 10em;
-    flex-wrap: wrap;
     flex-shrink: 1;
 }
 
@@ -481,14 +480,13 @@ button:hover {
     justify-content: space-around;
     height: 10em;
     line-height: 8em;
-    flex-wrap: wrap;
     flex-shrink: 1;
 }
 
 .value {
     background: #00a794;
     margin: 1em;
-    color: white;
+    color: #000000;
     font-weight: 900;
     text-align: center;
     flex: 1 0 0px;
@@ -502,7 +500,7 @@ button:hover {
 
 .values-sections .value {
     margin: 1em;
-    color: white;
+    color: #FFFFFF;
     font-weight: 900;
     text-align: center;
     flex: 1 0 0px;
@@ -662,6 +660,10 @@ iframe {
     .bottomnav h5 a:first-of-type {
         margin-left: 0;
     }
+
+    .bottomnav p {
+        font-size: 12px;
+    }
 }
 
 @media (max-width: 860px) {
@@ -691,29 +693,7 @@ iframe {
 }
 
 @media (max-width: 400px) {
-    html {
-        font-size: 45%;
-    }
-
     .title-text {
         font-size: 3.2em;
-    }
-}
-
-@media (max-width: 300px) {
-    html {
-        font-size: 40%;
-    }
-}
-
-@media (max-width: 300px) {
-    html {
-        font-size: calc(12px+40%);
-    }
-}
-
-@media (max-width: 270px) {
-    html {
-        font-size: calc(12px+30%);
     }
 }
