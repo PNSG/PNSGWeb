@@ -69,11 +69,7 @@
 
   [plugins.inputs]
     checkPaths = ['/']
-    failWithIssues = true
     ignoreDirectories = []
-    ignoreElements = []
-    ignoreGuidelines = []
-    wcagLevel = 'WCAG2AAA'
 
 [[plugins]]
 package = "netlify-plugin-checklinks"
