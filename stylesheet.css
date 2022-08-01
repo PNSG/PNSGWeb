@@ -43,6 +43,10 @@ html {
 
 @keyframes slideInTop {
     0% {
+        transform: translateY(0);
+    }
+
+    1% {
         transform: translateY(-200vh);
     }
 
@@ -53,6 +57,10 @@ html {
 
 @keyframes slideInBottom {
     0% {
+        transform: translateY(0);
+    }
+
+    1% {
         transform: translateY(100vh);
     }
 
@@ -63,6 +71,10 @@ html {
 
 @keyframes slideInLeft {
     0% {
+        transform: translateX(0);
+    }
+
+    1% {
         transform: translateX(-100%);
     }
 
@@ -73,6 +85,10 @@ html {
 
 @keyframes slideInLeftLong {
     0% {
+        transform: translateX(0);
+    }
+
+    1% {
         transform: translateX(-100vw);
     }
 
@@ -83,6 +99,10 @@ html {
 
 @keyframes slideInLeftLongest {
     0% {
+        transform: translateX(0);
+    }
+
+    1% {
         transform: translateX(-200vw);
     }
 
@@ -180,6 +200,7 @@ img {
 
 .topnav .icon svg {
     width: 2rem;
+    color: #FFFFFF;
 }
 
 .topnav .links {
@@ -390,6 +411,13 @@ button:hover {
     align-items: flex-end;
 }
 
+.bottomnav .first {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
 .bottomnav .links-box {
     display: flex;
     flex-direction: column;
@@ -403,9 +431,14 @@ button:hover {
     align-items: center;
 }
 
-.bottomnav .first .img-slogans h5 {
-    margin-left: 1em;
+.bottomnav .first .img-slogans p {
+    font-weight: 900;
+    margin-bottom: .5em;
+    margin-top: .5em;
     color: #FFFFFF;
+    display: block;
+    font-size: 0.83em;
+    margin-left: 1em;
 }
 
 .bottomnav .first img {
@@ -420,16 +453,15 @@ button:hover {
 
 .bottomnav .last .section {
     margin-right: 1em;
-    height: 1.3rem;
+    height: 1.1rem;
 }
 
 .bottomnav .last .CEOP {
-    height: 2.5rem;
+    height: 2.1rem;
 }
 
 .bottomnav p {
-    margin-top: 0em;
-    margin-bottom: 0;
+    margin-top: 0;
     color: #FFFFFF;
     font-size: .5em;
 }
@@ -440,12 +472,21 @@ button:hover {
     text-decoration: none;
 }
 
-.bottomnav h5 a {
+.bottomnav .links a {
     text-decoration: none;
     display: inline-block;
     vertical-align: top;
     margin-top: .2em;
     margin-left: 1em;
+    font-weight: 900;
+    color: #FFFFFF;
+    font-size: 0.83em;
+    margin-left: 1em;
+    transition: .3s;
+}
+
+.bottomnav .links a:hover {
+    color: #b4b4b4;
 }
 
 .hidden {
@@ -462,6 +503,7 @@ button:hover {
     display: -webkit-flex;
     display: flex;
     -webkit-flex-flow: row;
+    flex-flow: row;
     justify-content: space-around;
     height: 10em;
     flex-shrink: 1;
@@ -477,6 +519,7 @@ button:hover {
     display: -webkit-flex;
     display: flex;
     -webkit-flex-flow: row;
+    flex-flow: row;
     justify-content: space-around;
     height: 10em;
     line-height: 8em;
@@ -558,6 +601,7 @@ button:hover {
     display: -webkit-flex;
     display: flex;
     -webkit-flex-flow: row;
+    flex-flow: row;
 }
 
 .grid-item {
@@ -592,6 +636,7 @@ iframe {
 
     .values {
         -webkit-flex-flow: column;
+        flex-flow: column;
         flex-direction: column;
         height: auto;
     }
@@ -607,6 +652,7 @@ iframe {
 
     .values-sections {
         -webkit-flex-flow: column;
+        flex-flow: column;
         flex-direction: column;
         height: auto;
     }
@@ -618,6 +664,7 @@ iframe {
 
     .grid {
         -webkit-flex-flow: column;
+        flex-flow: column;
         flex-direction: column;
         height: auto;
     }
@@ -641,7 +688,7 @@ iframe {
         margin: 0;
     }
 
-    .topnav a.icon {
+    .topnav .icon {
         display: block;
     }
 
@@ -657,12 +704,26 @@ iframe {
         align-items: flex-start;
     }
 
-    .bottomnav h5 a:first-of-type {
+    .bottomnav p a:first-of-type {
         margin-left: 0;
     }
 
     .bottomnav p {
         font-size: 12px;
+    }
+}
+
+@media (max-width: 900px) {
+    .bottomnav p {
+        margin-bottom: 48px;
+    }
+
+    .bottomnav p a {
+        padding-bottom: 48px;
+    }
+
+    .bottomnav .links a {
+        padding-bottom: 48px;
     }
 }
 
