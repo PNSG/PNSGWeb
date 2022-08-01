@@ -363,12 +363,13 @@ button:hover {
     padding-left: 1em;
     padding-right: 1em;
     margin-bottom: 1em;
-    width: 50vw;
+    width: 90%;
 }
 
 .form input, .form textarea, .form select {
-    width: max-content;
+    width: 70%;
     font: inherit;
+    border: 2px solid black;
 }
 
 ::-webkit-file-upload-button {
