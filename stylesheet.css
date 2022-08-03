@@ -132,11 +132,15 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
 }
 
-h4, h5, h6 {
+h5, h6 {
     color: #505050;
     font-weight: 900;
     margin-bottom: .5em;
     margin-top: .5em;
+}
+
+h4 {
+    font-size: 1.17em;
 }
 
 p {
@@ -206,6 +210,7 @@ img {
 .topnav .links {
     margin-right: 2em;
     min-width: 6em;
+    margin-top: .5em;
 }
 
 .topnav img {
@@ -220,6 +225,8 @@ img {
     vertical-align: top;
     margin-top: .5em;
     margin-left: 1em;
+    font-weight: 900;
+    margin-bottom: .5em;
 }
 
 .content {
@@ -568,11 +575,6 @@ button:hover {
     margin: auto;
 }
 
-.values-sections img {
-    height: 50rem;
-}
-
-
 .red {
     background-color: #e22e12;
 }
@@ -594,7 +596,7 @@ button:hover {
 }
 
 .network {
-    height: 20em;
+    height: 1em;
 }
 
 .values-sections .value:hover {
