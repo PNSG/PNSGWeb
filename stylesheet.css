@@ -568,6 +568,11 @@ button:hover {
     margin: auto;
 }
 
+.values-sections img {
+    height: 50rem;
+}
+
+
 .red {
     background-color: #e22e12;
 }
