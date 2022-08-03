@@ -1,0 +1,19 @@
+/* TEAM */
+    Lead Developer: Neo Skinner
+    Site: neo.ski@outlook.com, linktr.ee/NeoSki
+    Twitter: @NeoSkin7
+    Location: Poole, United Kningdom
+
+    Lead Contributor: Geoff Thompson
+    Site: gpj.thompson@btinternet.com
+    Location: Poole, United Kningdom
+
+/* THANKS */
+    District Commissioner: Ragen Bartaby
+    Twitter: @poolescouts
+
+/* SITE */
+    Last update: 2022/08/03
+    Standards: HTML5, CSS3
+    Components: Microsoft Office, Netlify, reCAPTCHA
+    Software: Visual Studio Code, Chrome Lighthouse, Subfont, Checklinks

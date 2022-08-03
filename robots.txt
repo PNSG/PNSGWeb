@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: 
+Disallow: /about/terms/
+Disallow: /about/cookies/
+Disallow: /contact/success/
+Sitemap: https://pnsg.org.uk/sitemap.xml
