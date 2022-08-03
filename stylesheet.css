@@ -160,11 +160,13 @@ main a {
     text-decoration: none;
 }
 
-a:hover {
+a:hover,
+a:focus {
     color: #b4b4b4;
 }
 
-main a:hover {
+main a:hover,
+main a:focus {
     color: #747272;
 }
 
@@ -297,7 +299,8 @@ small a {
     color: #FFFFFF;
 }
 
-small a:hover {
+small a:hover,
+small a:focus {
     color: #8b8b8b;
 }
 
@@ -347,7 +350,8 @@ button {
     border-radius: .4rem;
 }
 
-button:hover {
+button:hover,
+button:focus {
     background-color: #00a794;
     cursor: pointer;
 }
@@ -392,7 +396,8 @@ button:hover {
     border-radius: .4rem;
 }
 
-::-webkit-file-upload-button:hover {
+::-webkit-file-upload-button:hover,
+::-webkit-file-upload-button:focus {
     background-color: #00a794;
     cursor: pointer;
 }
@@ -493,7 +498,8 @@ button:hover {
     transition: .3s;
 }
 
-.bottomnav .links a:hover {
+.bottomnav .links a:hover,
+.bottomnav .links a:focus {
     color: #b4b4b4;
 }
 
@@ -599,7 +605,8 @@ button:hover {
     height: 1em;
 }
 
-.values-sections .value:hover {
+.values-sections .value:hover,
+.values-sections .value:focus {
     background: #00a794;
 }
 
