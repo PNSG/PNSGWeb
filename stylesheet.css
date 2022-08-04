@@ -646,6 +646,11 @@ iframe {
     height: 950px;
 }
 
+.google {
+    display: none;
+    visibility: hidden;
+}
+
 @media (max-width: 1270px) {
     .person {
         display: flex;
