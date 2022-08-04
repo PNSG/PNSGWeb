@@ -94,12 +94,6 @@ package = "netlify-plugin-chromium"
     failBuildOnError = false
 
 [[plugins]]
-  package = "netlify-plugin-html-validate"
-
-  [plugins.inputs]
-    ext = "html"
-
-[[plugins]]
   package = "@netlify/plugin-lighthouse"
 
 [[plugins]]
