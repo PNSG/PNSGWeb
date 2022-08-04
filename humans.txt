@@ -13,7 +13,7 @@
     Twitter: @poolescouts
 
 /* SITE */
-    Last update: 2022/08/03
+    Last update: 2022/08/04
     Standards: HTML5, CSS3
-    Components: Microsoft Office, Netlify, reCAPTCHA
-    Software: Visual Studio Code, Chrome Lighthouse, Subfont, Checklinks
+    Components: Microsoft Office, Netlify, reCAPTCHA, Google Tag Manager, Microsoft Clarity, Google Analytics
+    Software: Visual Studio Code, Chrome Lighthouse, Subfont, Checklinks, FreePrivacyPolicy.com

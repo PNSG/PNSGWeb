@@ -651,6 +651,34 @@ iframe {
     visibility: hidden;
 }
 
+#cookiePopup {
+    background: #FFFFFF;
+    width: 97%;
+    position: fixed;
+    margin-left: 20px;
+    bottom: 20px;
+    box-shadow: 0px 0px 15px #000000;
+    padding: 5px 10px;
+    z-index: 100;
+}
+
+#cookiePopup p {
+    text-align: left;
+    color: #000000;
+}
+
+#cookiePopup a {
+    color: #000000;
+    transition: .3s;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+#cookiePopup a:hover,
+#cookiePopup a:focus {
+    color: #747272;
+}
+
 @media (max-width: 1270px) {
     .person {
         display: flex;
