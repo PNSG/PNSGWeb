@@ -148,8 +148,8 @@ package = "netlify-plugin-subfont"
   package = "netlify-plugin-submit-sitemap"
 
 	[plugins.inputs]
-	baseUrl = "default"
-	sitemapPath = "default"
+	baseUrl = "https://pnsg.org.uk/"
+	sitemapPath = "sitemap.xml"
 	ignorePeriod = 0
 	providers = [
 		"google",
