@@ -71,14 +71,6 @@
   force = false
 
 [[plugins]]
-  package = "netlify-plugin-a11y"
-
-  [plugins.inputs]
-    checkPaths = ['/']
-    ignoreDirectories = []
-    ignoreElements = 'iframe'
-
-[[plugins]]
 package = "netlify-plugin-checklinks"
 
   [plugins.inputs]
