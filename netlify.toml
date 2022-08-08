@@ -74,7 +74,7 @@
 from = "/members/*"
 to = "/login/"
 force = true
-status = 301
+status = 302
 
 [[redirects]]
   from = "/*"
