@@ -74,7 +74,7 @@ conditions = {Role = ["admin"]}
 from = "/members/*"
 to = "/login/"
 force = true
-status = 401
+status = 301
 
 [[redirects]]
   from = "/*"
