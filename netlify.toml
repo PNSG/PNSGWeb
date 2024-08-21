@@ -1,0 +1,16 @@
+[[plugins]]
+package = "netlify-plugin-checklinks"
+
+  [plugins.inputs]
+    entryPoints = [
+      "*.html",
+    ]
+    skipPatterns = [
+      "about/data",
+      "about/terms",
+      "about/cookies"
+    ]
+    recursive = true
+    pretty = true
+    checkExternal = false
+    followSourceMaps = false
