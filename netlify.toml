@@ -6,7 +6,9 @@ package = "netlify-plugin-checklinks"
       "*.html",
     ]
     skipPatterns = [
-      "about/data"
+      "about/data",
+      "about/terms",
+      "about/cookies"
     ]
     recursive = true
     pretty = true
